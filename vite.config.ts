@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
   import path from 'path';
 
   export default defineConfig({
-    base: 'https://github.com/Lelouchlamperougexd/letter/',
+    base: '/letter/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
