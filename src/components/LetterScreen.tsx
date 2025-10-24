@@ -3,8 +3,8 @@ import { Heart, Sparkles } from 'lucide-react';
 import { CountdownTimer } from './CountdownTimer';
 import { MessageCarousel } from './MessageCarousel';
 import { QuestionsSection } from './QuestionsSection';
-import catLaying from 'figma:asset/26db705a43eff34bf6da2fe44ca1594f5a6d79ca.png';
-import catHappy from 'figma:asset/8f84f4d762657b783bc02eab1dcc1e34ac813b05.png';
+import catLaying from '../assets/fu.jpg';
+import catHappy from '../assets/awww.jpg';
 
 export function LetterScreen() {
   return (
@@ -100,7 +100,7 @@ export function LetterScreen() {
           </p>
           
           <p className="text-center" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
-            I could not believe that I'm doing such stuff for someone tbh... But anyways, it's been 2 months? It means that I didn't see you for such time. I couldn't say that it's long period of time before, but now I understand how badly I want to see you again. Soooo, I told you that i like to celebrate such things. But things got rough and I had no resources to make you in real life present, sorry my bad tho... It was unfortunate, so I've decided to use my personal skills, to make you a present. Hope you like it. I will kill you if not, because I spent on this much more time than I've ever expected. So you better read and appreciate it.
+            I could not believe that I'm doing such stuff for someone tbh... But anyways, it's been 2 months? It means that I didn't see you for such time. I couldn't say that it's long period of time before, but now I understand how badly I want to see you again. Soooo, I told you that i like to celebrate such things. But things got rough and I had no resources to make you in real life present, sorry my bad tho... It was unfortunate, so I've decided to use my personal skills, to make you a present.
           </p>
 
           <p className="text-center" style={{ fontSize: '1rem', lineHeight: '1.8' }}>

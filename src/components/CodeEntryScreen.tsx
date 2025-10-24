@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Eye, EyeOff } from 'lucide-react';
-import envelopeImage from 'figma:asset/7a7a2a802cc98ff0813051cd13f8bc86bc06c77b.png';
+import envelopeImage from '../assets/envelope.png';
 
 interface CodeEntryScreenProps {
   onCorrectCode: () => void;

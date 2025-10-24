@@ -5,7 +5,7 @@ import { RejectionScreen } from './components/RejectionScreen';
 import { CodeEntryScreen } from './components/CodeEntryScreen';
 import { LetterScreen } from './components/LetterScreen';
 import { MusicPlayer } from './components/MusicPlayer';
-import backgroundImage from 'figma:asset/01b5a19e3645b5d2722f8607649ab9d0af71b044.png';
+import backgroundImage from './assets/kuromi.jpg';
 
 type Screen = 'welcome' | 'rejection' | 'codeEntry' | 'letter';
 

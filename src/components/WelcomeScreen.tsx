@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Button } from './ui/button';
 import { Heart } from 'lucide-react';
-import catWithFlowers from 'figma:asset/a03dcd151efb570f8dce97a3ab26535930a4e969.png';
+import catWithFlowers from '../assets/flowers.jpg';
 
 interface WelcomeScreenProps {
   onYes: () => void;
