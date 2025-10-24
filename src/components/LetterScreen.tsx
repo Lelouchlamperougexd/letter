@@ -95,32 +95,32 @@ export function LetterScreen() {
           transition={{ delay: 1 }}
           className="space-y-4 text-[#292528]"
         >
-          <p className="text-center" style={{ fontSize: '1.2rem', lineHeight: '1.8' }}>
+          <p className="text-center" style={{ fontSize: '1.3rem', lineHeight: '1.8' }}>
             My Dearest Durochka,
           </p>
           
-          <p className="text-center" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
+          <p className="text-left" style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
             I could not believe that I'm doing such stuff for someone tbh... But anyways, it's been 2 months? It means that I didn't see you for such time. I couldn't say that it's long period of time before, but now I understand how badly I want to see you again. Soooo, I told you that i like to celebrate such things. But things got rough and I had no resources to make you in real life present, sorry my bad tho... It was unfortunate, so I've decided to use my personal skills, to make you a present.
           </p>
 
-          <p className="text-center" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
+          <p className="text-center" style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
             Jokes aside. I want to make sure you know how much you mean to me. Just like how your furry son brings us joy, you bring light to my darkest days. Thank you for being there when I needed you most, for supporting me when it was uneasy, and for choosing to walk this path together with me.
           </p>
 
-          <p className="text-center" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
+          <p className="text-center" style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
             You're not only my girlfriend but also a partner, my inspiration, and my dearest friend. Every day, I find more reasons to appreciate you, admire you, and, most importantly, love you even more.
           </p>
 
-          <p className="text-center" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
+          <p className="text-center" style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
             I was scared earliear to say "I love you", because I put a lot of meaning to this 3 simple words and by them I usually mean that I see everything beautiful in you - your kindness, your dreams, and even your unique quirks. But now I'm more confident to say it. I love how thoughtful you are, how you push yourself despite all the struggles, and how you constantly strive to be your best. You remind me of the strength and resilience it takes to face challenges head-on, and I’m so proud of you for everything you accomplish, even if you can’t always see it yourself.
           </p>
 
-          <p className="text-center" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
+          <p className="text-center" style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
             Your presence in my life has been a gift beyond words. You’ve taught me so much about love, trust, and vulnerability. With you, I’m learning what it means to truly give myself to someone, not out of need, but out of a genuine desire to make you feel valued, loved, and enough-because you are. I feel lucky to be the one who gets to remind you of that every day.
           </p>
 
-          <p className="text-center" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
-            
+          <p className="text-center" style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
+            I understand that life can sometimes get overwhelming, and I know you may feel uncertain or doubt yourself. But through it all, I’m here, wholeheartedly, to stand by you. I want to be someone you can lean on, someone who loves you exactly as you are, even when things feel difficult. I want to be a safe place where you never have to question if you’re enough, because, to me, you always are.
           </p>
 
           <motion.p
@@ -129,27 +129,14 @@ export function LetterScreen() {
             className="text-center text-[#A8141D]"
             style={{ fontSize: '1.3rem', fontWeight: '700', marginTop: '1.5rem' }}
           >
-            I love you endlessly! ❤️
+            Thank you for being my everything :)
           </motion.p>
+          <p className="text-center" style={{ fontSize: '1.3rem', lineHeight: '1.8' }}>
+            - Your Barashek
+          </p>
         </motion.div>
 
-          {/* Footer Hearts */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.2 }}
-            className="flex gap-2 mt-6 justify-center"
-          >
-            {[...Array(5)].map((_, i) => (
-              <motion.div
-                key={i}
-                animate={{ y: [0, -10, 0] }}
-                transition={{ duration: 1.5, repeat: Infinity, delay: i * 0.2 }}
-              >
-                <Heart className="w-6 h-6 text-[#A8141D] fill-[#A8141D]" />
-              </motion.div>
-            ))}
-          </motion.div>
+        
         </motion.div>
       </motion.div>
 

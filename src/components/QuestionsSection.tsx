@@ -6,27 +6,30 @@ import { Button } from './ui/button';
 const questions = [
   {
     id: 1,
-    question: "What do I love most about you?",
-    answer: "Everything! But especially your kindness, your beautiful smile, and the way you make me feel like I can conquer the world. You have the most caring heart I've ever known.",
-    image: "https://images.unsplash.com/photo-1591969851586-adbbd4accf81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGNvdXBsZXxlbnwxfHx8fDE3NjEyMDk1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    question: "What was my first impression of you?",
+    answer: "I was really amazed by you, when I saw your social media. I thought, 'Hmm, she is so talented and interesting, I wanna know her better.' Guitar, art, dancing are such a impressive skills, and know when I know you better, I can confirm that I was right about it.",
   },
   {
     id: 2,
-    question: "What's my favorite memory of us so far?",
-    answer: "Every moment is precious, but I especially cherish our quiet moments together - just talking, laughing, and being ourselves. Those simple times mean the world to me.",
-    image: "https://images.unsplash.com/photo-1607005813965-1d5dc0e6246f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsb3ZlJTIwdG9nZXRoZXJ8ZW58MXx8fHwxNzYxMjkwOTc1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    question: "What do I love most about you?",
+    answer: "I genuinely love to listen you. Hearing your voice makes me want to stop everything and just focus on you. Your little giggles, your fake sarcastic laugh, the way you construct sentences - everything about your voice is music to my ears. Which",
   },
   {
     id: 3,
-    question: "How do you make me feel?",
-    answer: "You make me feel loved, safe, understood, and incredibly happy. With you, I can be my true self. You've shown me what it means to be truly cherished.",
-    image: "https://images.unsplash.com/photo-1675188012164-2cedcf8fa19a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMG1lbW9yaWVzfGVufDF8fHx8MTc2MTIxNjQ4MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    question: "What's my favorite memory of us so far?",
+    answer: "There so many things happend already. For example, when you said you were confident about me and I differ from others, was a really special moment to me. But if I have to choose best one, I would say how we were sitting in the car, listening music at the parking lot, and you started singing along with songs. I was incredibly happy that day" ,
   },
   {
     id: 4,
+    question: "How do you make me feel?",
+    answer: "Almost after each conversation with you, I feel like I want to say I love you, I just can't fight against it. Silly me, is too weak to win this battle, and I guess I would never want to win it anyway.",
+    
+  },
+  {
+    id: 5,
     question: "What am I looking forward to with you?",
-    answer: "Everything! I'm excited for all our future adventures, building a life together, making more beautiful memories, and growing old with you by my side. Every day with you is a gift.",
-    image: "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjdXRlJTIwY2F0fGVufDF8fHx8MTc2MTI2NjE3NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    answer: "To be completely honest I'm terrified about future, there is so many variables that I can't control. But one thing I'm sure about is that I want you to be part of my future. But I wish us to face it together.",
+
   },
 ];
 
@@ -86,11 +89,6 @@ export function QuestionsSection() {
                   className="overflow-hidden"
                 >
                   <div className="p-4 pt-0 space-y-3">
-                    <img
-                      src={item.image}
-                      alt="Memory"
-                      className="w-full h-48 object-cover rounded-lg"
-                    />
                     <p className="text-[#292528]" style={{ fontSize: '0.95rem', lineHeight: '1.6' }}>
                       {item.answer}
                     </p>

@@ -5,9 +5,9 @@ import { Slider } from './ui/slider';
 import { motion, AnimatePresence } from 'motion/react';
 
 const playlist = [
-  { title: 'Perfect - Ed Sheeran', url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3' },
-  { title: 'All of Me - John Legend', url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3' },
-  { title: 'Thinking Out Loud - Ed Sheeran', url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3' },
+  { title: 'Insomnia - Stray kids', url: null },
+  { title: 'God’s Menu - Stray kids', url: null },
+  { title: 'Thunderous - Stray kids', url: null },
 ];
 
 export function MusicPlayer() {

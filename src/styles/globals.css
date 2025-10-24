@@ -187,3 +187,9 @@
 html {
   font-size: var(--font-size);
 }
+
+.sirivennela-regular {
+  font-family: "Sirivennela", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
