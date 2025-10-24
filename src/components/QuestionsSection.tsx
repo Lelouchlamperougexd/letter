@@ -7,7 +7,7 @@ const questions = [
   {
     id: 1,
     question: "What do I love most about you?",
-    answer: "Everything! But especially your kindness, your beautiful smile, and the way you make me feel like I can conquer the world. You have the most caring heart I've ever known.",
+    answer: "I said to you it many times, but I'll",
     image: "https://images.unsplash.com/photo-1591969851586-adbbd4accf81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGNvdXBsZXxlbnwxfHx8fDE3NjEyMDk1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
   },
   {
